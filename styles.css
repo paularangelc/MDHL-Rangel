@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin:border-box;
+}
+body{
+    background-color: aqua;
+    color: black;
+    font-family: cursive;
+}
+.conteiner{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.titPrinc{
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+.topo{
+    text-align: center;
+    min-width: auto;
+    min-height: auto;
+    
+   }
+
+.Log{  
+background-color: black;
+ position: absolute;
+  height:200px;
+  width:200px;
+  bottom: 40px;
+  right : 40px;
+  z-index: 1;
+  
+}
+.subtitulo{
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+table {
+    width: 100px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    height: 50vh;
+    width: 40rem;
+    table-layout: auto;
+    border-spacing: 5px;   
+   
+}
+
+table, th, td {
+    border: 5px solid;
+    border-color: black;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.schedule,.games{
+    width: 100px;
+    margin: 0 auto;
+    
+}
