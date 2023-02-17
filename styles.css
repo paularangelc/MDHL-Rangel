@@ -76,5 +76,14 @@ th {
 .schedule,.games{
     width: 100px;
     margin: 0 auto;
-    
+   
+}
+section.form{
+    border-radius: 0%;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+
 }
